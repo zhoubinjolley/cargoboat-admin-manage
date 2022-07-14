@@ -1,0 +1,24 @@
+@use "sass:math"; 
+// global variables
+$designWidth: 1920;
+$designHeight: 1080;
+
+@function vw($px) {
+    @return $px / $designWidth * 100vw;
+}
+
+@function vh($px) {
+    @return $px / $designHeight * 100vh;
+}
+
+$menuText: #fff;
+$menuActiveText: #409eff;
+$subMenuActiveText: #b7babc;
+
+$menuBg: #101820;
+$menuHover: #101820;
+
+$subMenuBg: #101820;
+$subMenuHover: #ffc629;
+
+$sideBarWidth: 228px;

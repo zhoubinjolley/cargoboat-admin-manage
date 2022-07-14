@@ -1,0 +1,27 @@
+.navbar {
+    text-align: center;
+    height: 96px;
+    overflow: hidden;
+    position: relative;
+    background: url("~@/assets/image/title_bg.png") no-repeat;
+
+    &-title {
+        font-size: 48px;
+        background-image: linear-gradient(#BAC6D5, #5C7EA7);
+        background-clip: text;
+        color: transparent;
+        letter-spacing: 4px;
+        font-weight: bold;
+    }
+
+    .right-menu {
+        float: right;
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}

@@ -1,13 +1,12 @@
 /*
  * @Author: Bin.Zhou
- * @Date: 2022-07-12 10:08:01
- * @LastEditTime: 2022-07-12 14:01:30
+ * @Date: 2022-07-13 12:36:58
+ * @LastEditTime: 2022-07-13 12:38:11
  * @LastEditors: Bin.Zhou
  * @Description: 
  * @Copyright: Copyright (c) Reserved 
  */
 module.exports = {
-  presets: [
-    '@vue/cli-plugin-babel/preset'
-  ]
-}
+    title: "散货船远程运维综合管理平台",
+  };
+  

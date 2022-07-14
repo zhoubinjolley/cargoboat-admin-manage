@@ -1,0 +1,20 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1920px;
+    height: 1080px;
+    background-color: #191d2f;
+    font-family: "Microsoft YaHei", "微软雅黑", Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
